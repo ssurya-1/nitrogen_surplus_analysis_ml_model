@@ -16,17 +16,9 @@ python3 -m venv .venv
 
 ## Run order
 ```
-.venv/bin/python data_prep.py extract      # CAPRI rasters to NUTS2 tables (about 5 minutes)
-.venv/bin/python data_prep.py hani         # HaNi-Crop rates to NUTS2
-.venv/bin/python data_prep.py budget       # per-crop N budget and audit tables
 .venv/bin/python evaluate.py               # training, blocked tests, metrics, hotspots (about 2 minutes)
 .venv/bin/python figures.py                # figures/report and figures/slides
-.venv/bin/python build_results_document.py # reports/results_document.docx
-.venv/bin/python build_final_report.py     # reports/final_report.docx
-.venv/bin/python build_guide.py            # reports/model_and_code_guide.docx
-.venv/bin/python scripts/style_check.py
 ```
-`nitrogen_mtl.ipynb` walks through the same steps with outputs shown inline.
 
 ## One prediction
 ```
@@ -38,10 +30,8 @@ This prints the model's yield, removal and surplus next to the budget values, wi
 ## Layout
 | Path | Contents |
 |---|---|
-| `data_prep.py` | Raster extraction, HaNi aggregation, per-crop budget |
 | `models.py` | The network, the budget step, the loss and the training loop |
 | `evaluate.py` | Splits, experiments, metrics, hotspot ranking |
 | `predict.py` | One prediction for a chosen region, crop and year |
 | `figures.py` | All figures |
 | `results/` | Every number quoted in the reports, as CSV |
-| `reports/development_log.md` | How the delivered work differs from the proposal, and why |
