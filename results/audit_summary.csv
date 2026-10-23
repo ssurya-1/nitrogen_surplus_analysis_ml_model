@@ -1,0 +1,16 @@
+,value
+regions_with_farmland,222.0
+identity_max_abs_kgN_ha,0.005837505675742705
+identity_mean_abs_kgN_ha,0.00034552622660778855
+n_content_nnls_r2,0.990483296951759
+biofix_intercept,4.462835090230442
+biofix_legume_coef,174.84108052417804
+biofix_grass_coef,6.542376212064817
+fixation_assigned_kgN_ha,4.462835090230442
+hani_vs_capri_region_corr,0.8079444469804316
+hani_vs_capri_total_ratio,0.7495155974565143
+rows_dropped_no_hani,122.0
+rows_clipped_mineral,68.0
+rows_clipped_manure,68.0
+rows_raw_hani_jump_over_50pct,998.0
+rows_final,13185.0

@@ -1,0 +1,7 @@
+split,fold,fit_rows,val_rows,test_rows,test_countries
+temporal,0,10411,1388,1386,AT BE BG CY CZ DE DK EE EL ES FI FR HU IE IT LT LU LV NL PL PT RO SE SI SK UK
+spatial,1,7363,980,2379,DE EE FI
+spatial,2,6871,909,2355,AT BE FR IE LV
+spatial,3,7277,972,2360,CY CZ DK EL PL SK
+spatial,4,7113,949,2348,IT LT NL RO SE SI
+spatial,5,7153,950,2357,BG ES HU LU PT UK

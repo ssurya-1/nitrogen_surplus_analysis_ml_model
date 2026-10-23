@@ -1,0 +1,5 @@
+crop,lit_low,lit_high,crop_name,n_calibrated,in_range,n_used
+SWHE,17,23,Soft wheat,20.073687029847076,True,20.073687029847076
+BARL,14,20,Barley,18.910316311356862,True,18.910316311356862
+MAIZ,12,16,Grain maize,24.124940562683186,False,14.0
+RAPE,28,35,Rapeseed,62.9433576760543,False,31.5
